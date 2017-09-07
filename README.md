@@ -27,7 +27,7 @@ Run Xamarin UI and Unit Tests in Windows with only 2 clicks. Pull from your repo
 ## Pre-Configuration
 
 #### If you have never compile your solution on this machine, do it!
-NuGet packages should be in the file system. It will be done automatically in the next versions.
+NuGet packages should be in the file system so be sure they were restored after building. [Enabling and disabling package restore](https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore).
 
 #### Git Bash
 If you have not used the bash, please login with your credentials because they will be needed later to get the last version of the tests.
