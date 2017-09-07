@@ -1,14 +1,16 @@
 
 # Xamarin Test Local Server for Windows
-
 Run Xamarin UI and Unit Tests in Windows with only 2 clicks. Pull from your repo, build projects and run tests.
-
+<br/>
+<br/>
 **Platform Support**
 
 |Platform|Available|
 | ------------------- | :-----------: |
 |Xamarin.Android|![alt text](https://www.pedshoes.com/images/general/greenCheck50x50Transparent.png)|
 |Xamarin.iOS|![alt text](http://i4ultimate.com/alertemails/warning-icon-orange.png)|
+
+<br/>
 
 ## Requirements
 
@@ -20,7 +22,7 @@ Run Xamarin UI and Unit Tests in Windows with only 2 clicks. Pull from your repo
  - NUnit Console for Windows - http://nunit.org/download/
  - Git Bash - https://git-for-windows.github.io/
 
-
+<br/>
 
 ## Pre-Configuration
 
@@ -30,11 +32,12 @@ NuGet packages should be in the file system. It will be done automatically in th
 #### Git Bash
 If you have not used the bash, please login with your credentials because they will be needed later to get the last version of the tests.
 
-#### Give read/write permission to TestResult.xml (located into NUnit console folder) 
+#### NUnit Console
+Give read/write permission to TestResult.xml (located into NUnit console folder) 
 
 #### xUnit doesn´t need configuration
 
-
+<br/>
 
 ## Setup
 
@@ -44,7 +47,9 @@ Complete your project path in **pull-git-repo.sh**
 cd /e/Projects/MyProject
 ...
 ```
- 
+
+<br/>
+
 Complete project name and paths in **StartTesting.bat**
 ```bash
 ...
@@ -63,6 +68,8 @@ SET uiTestReleaseLibraryPath=E:\Projects\MyProject\Test\MyProject.UITest\bin\Rel
 ...
 ```
 
+<br/>
+
 ## Running Test Process
 
 Open Run.bat and the process will be the next:
@@ -74,6 +81,7 @@ Open Run.bat and the process will be the next:
 * Open xUnit Console and run Unit tests
 * Run UI tests in the connected device
 
+<br/>
 
 ## Clarifications
 
@@ -81,11 +89,15 @@ This tool works with only one project. You should create folders with those scri
   
 Based on the requirement number 3, UI tests will run in one physical device (previously configured in the UI Test project).
 
+<br/>
+
 ## Version history
 
 *1.0* (September 07, 2017)
 
 * First version which is run manually in windows.
+
+<br/>
 
 ## Working on
 
@@ -93,6 +105,8 @@ Based on the requirement number 3, UI tests will run in one physical device (pre
 *  Restore NuGet Packages
 *  Continuous Integration with GitHub Repos using WebHooks and Node.js
 *  Support for multiple Visual Studio solutions
+
+<br/>
 
 ## Contributions
 Feel free to add improvements and all stuffs that help us to get a better testing process. Contact me if you have suggestions.
