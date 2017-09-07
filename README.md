@@ -78,6 +78,6 @@ Open Run.bat and the process will be the next:
 
 ## Working on
 
-*  Support for Mac
+*  Mac support
 *  Continuous Integration with GitHub Repos using WebHooks and Node.js
 
