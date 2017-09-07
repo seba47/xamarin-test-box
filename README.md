@@ -69,6 +69,11 @@ Open Run.bat and the process will be the next:
 * Open xUnit Console and run Unit tests
 * Run UI tests in the connected device
 
+## Clarifications
+
+This tool works with only one project. You should create folders with those scritps as projects you have.
+  
+Based on the requirement number 3, UI tests will run in one physical device (previously configured in the UI Test project).
 
 ## Version history
 
@@ -80,6 +85,7 @@ Open Run.bat and the process will be the next:
 
 *  Mac support
 *  Continuous Integration with GitHub Repos using WebHooks and Node.js
+*  Support for multiple Visual Studio solutions
 
 ## Contributions
-Feel free to add improvements and all stuffs that help us to get a better testing process.
+Feel free to add improvements and all stuffs that help us to get a better testing process. Contact me if you have suggestions.
