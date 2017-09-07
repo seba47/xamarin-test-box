@@ -81,3 +81,5 @@ Open Run.bat and the process will be the next:
 *  Mac support
 *  Continuous Integration with GitHub Repos using WebHooks and Node.js
 
+## Contributions
+Feel free to add improvements and all stuffs that help us to get a better testing process.
