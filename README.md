@@ -24,10 +24,15 @@ Run Xamarin UI and Unit Tests in Windows with only 2 clicks. Pull from your repo
 
 ## Pre-Configuration
 
+#### If you have never compile your solution on this machine, do it!
+NuGet packages should be in the file system. It will be done automatically in the next versions.
+
 #### Git Bash
 If you have not used the bash, please login with your credentials because they will be needed later to get the last version of the tests.
 
-#### xUnit and NUnit console don´t need configuration
+#### Give read/write permission to TestResult.xml (located into NUnit console folder) 
+
+#### xUnit doesn´t need configuration
 
 
 
@@ -69,6 +74,7 @@ Open Run.bat and the process will be the next:
 * Open xUnit Console and run Unit tests
 * Run UI tests in the connected device
 
+
 ## Clarifications
 
 This tool works with only one project. You should create folders with those scritps as projects you have.
@@ -84,6 +90,7 @@ Based on the requirement number 3, UI tests will run in one physical device (pre
 ## Working on
 
 *  Mac support
+*  Restore NuGet Packages
 *  Continuous Integration with GitHub Repos using WebHooks and Node.js
 *  Support for multiple Visual Studio solutions
 
