@@ -85,7 +85,7 @@ Open Run.bat and the process will be the next:
 
 ## Clarifications
 
-This tool works with only one project. You should create folders with those scritps as projects you have.
+This tool works with only one solution. You should create folders with those scritps as solutions you have.
   
 Based on the requirement number 3, UI tests will run in one physical device (previously configured in the UI Test project).
 
