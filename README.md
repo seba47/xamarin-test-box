@@ -75,7 +75,7 @@ SET uiTestReleaseLibraryPath=E:\Projects\MyProject\Test\MyProject.UITest\bin\Rel
 Open Run.bat and the process will be the next:
 
 * Git Pull on the current branch of the project
-* Build Android project (If your git pulls take much longer time,you can increase the waiting time for compiling Androind: into Run.bat - line 10)
+* Build Android project (If your git pulls take much longer time,you can increase the waiting time for compiling Android: into Run.bat - line 10)
 * Build UnitTest project
 * Build UITest project
 * Open xUnit Console and run Unit tests
@@ -102,9 +102,11 @@ Based on the requirement number 3, UI tests will run in one physical device (pre
 ## Working on
 
 *  Restore NuGet Packages
-*  Mac support
-*  Continuous Integration with GitHub Repos using WebHooks and Node.js
 *  Support for multiple Visual Studio solutions
+*  Mac support
+*  Run UI tests in multiple connected devices.
+*  Continuous Integration with GitHub Repos using WebHooks and Node.js
+
 
 <br/>
 
