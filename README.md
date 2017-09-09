@@ -15,7 +15,7 @@ Run Xamarin UI and Unit Tests in Windows with only 2 clicks. Pull from your repo
 ## Requirements
 
  - MsBuild (included with Visual Studio)
- - Xamarin Project with UI/Unit Test Projects within a git repository in your system.
+ - Xamarin Solution with UI Test Project and Unit Test Projects(with xunit) within a git repository in your file system.
  - UITest project with a real device configured (e.g: check Test.Cs section in http://sebacabrera.com/automated-xamarin-ui-tests-and-recorder/)
  - Add xunit console package in your UnitTest project - by Package
    Manager in VS or https://www.nuget.org/packages/xunit.runner.console
