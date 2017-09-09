@@ -41,7 +41,7 @@ Give read/write permission to TestResult.xml (located into NUnit console folder)
 
 ## Setup
 
-Complete your project path in **pull-git-repo.sh**
+Complete your solution path in **pull-git-repo.sh**
 ```bash
 ...
 cd /e/Projects/MyProject
