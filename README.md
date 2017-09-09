@@ -103,6 +103,7 @@ Based on the requirement number 3, UI tests will run in one physical device (pre
 
 *  Restore NuGet Packages
 *  Support for multiple Visual Studio solutions
+*  Run UI tests in iOS device
 *  Mac support
 *  Run UI tests in multiple connected devices.
 *  Continuous Integration with GitHub Repos using WebHooks and Node.js
