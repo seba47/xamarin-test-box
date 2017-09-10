@@ -1,5 +1,10 @@
 
 # Xamarin Test Box for Windows
+
+![](https://img.shields.io/badge/version-1.0-green.svg?style=flat)
+![](https://img.shields.io/badge/os-Windows-yellow.svg?style=flat)
+[![Twitter: @seba47](https://img.shields.io/badge/contact-@seba47-blue.svg?style=flat)](https://twitter.com/seba47)
+
 Run Xamarin UI and Unit Tests in Windows with only 2 clicks. Pull from your repo, build projects and run tests.
 <br/>
 <br/>
