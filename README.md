@@ -1,5 +1,5 @@
 
-# Xamarin Test Local Server for Windows
+# Xamarin Test Box for Windows
 Run Xamarin UI and Unit Tests in Windows with only 2 clicks. Pull from your repo, build projects and run tests.
 <br/>
 <br/>
@@ -95,7 +95,7 @@ Based on the requirement number 3, UI tests will run in one physical device (pre
 
 *1.0* (September 07, 2017)
 
-* First version which is run manually in windows.
+* First version which shoulb be run manually in windows. It pulls the code, builds the projects and then runs unit tests and ui tests in your connected Android device.
 
 <br/>
 
