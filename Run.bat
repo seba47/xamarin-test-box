@@ -3,7 +3,7 @@ title Xamarin Test Box 1.0
 
 echo.
 echo.
-echo Initializing Xamarin Test Local Server...
+echo Initializing Xamarin Test Box...
 echo.
 echo.
 start "Git Pull" scripts\pull-git-repo.sh
