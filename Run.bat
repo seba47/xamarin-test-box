@@ -1,5 +1,5 @@
 @echo off
-title Xamarin Test Local Server v1.0
+title Xamarin Test Box 1.0
 
 echo.
 echo.
