@@ -1,5 +1,5 @@
 @echo off
-title Xamarin Test Local Server v1.0
+title Xamarin Test Box 1.0
 
 REM *** VARs declarations - REQUIRED! ***
 SET projectName=MyProject
@@ -63,7 +63,7 @@ echo.
 echo.
 TIMEOUT /T 3
 cd /d %xunitPath%
-start "Xamarin Unit Tests" xunit.console.exe "%unitTestReleaseLibraryPath%" -wait
+start "Xamarin Test Box - Unit Tests" xunit.console.exe "%unitTestReleaseLibraryPath%" -wait
 
 TIMEOUT /T 10
 
@@ -76,5 +76,5 @@ TIMEOUT /T 3
 cd /d %nunitPath%
 start /WAIT /B "Xamarin UI Tests" nunit3-console.exe "%uiTestReleaseLibraryPath%"
 
-pause > nul
+pause > null
 exit
