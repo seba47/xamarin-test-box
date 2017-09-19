@@ -106,6 +106,7 @@ Based on the requirement number 3, UI tests will run in one physical device (pre
 
 ## Working on
 
+*  Run Unit tests created with NUnit
 *  Restore NuGet Packages
 *  Support for multiple Visual Studio solutions
 *  Run UI tests in iOS device
